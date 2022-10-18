@@ -1,0 +1,241 @@
+.people_img img {
+    width: 100%;
+    margin-top: 5%;
+}
+
+.title01 {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.title01::before,
+.title01::after {
+    content: '';
+    width: 32%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+}
+
+.title01::before {
+    top: 50%;
+    left: 0;
+}
+
+.title01::after {
+    top: 50%;
+    right: 0;
+}
+
+
+.tip {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10%;
+}
+
+.tip__p {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'Gilroy';
+}
+
+.tip__p p:nth-child(1) {
+    width: 10%;
+    text-align: center;
+    margin-left: 35px;
+}
+
+.tip__p p:nth-child(2) {
+    width: 15%;
+    text-align: center;
+    margin-left: 33px;
+}
+
+.tip__p p:nth-child(3) {
+    width: 15%;
+    text-align: center;
+}
+
+.tip__p p:nth-child(4) {
+    width: 18%;
+    text-align: center;
+}
+
+.forest__sec {
+    width: 100%;
+    background: url('../img-o-nas/Rectangle\ 161.jpg');
+    height: 445px;
+    margin-top: 10%;
+}
+
+.forest {
+    position: relative;
+    width: 100%;
+    height: 445px;
+    background-color: #000000A6;
+
+}
+
+.forest_h2 {
+    font-size: 36px;
+    color: #ffffff;
+    margin-left: 41.4%;
+    padding-top: 5%;
+    font-family: 'Gilroy';
+    font-weight: 400;
+
+}
+
+.circle_text {
+
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.text_p {
+    width: 90%;
+    display: flex;
+    text-align: center;
+    color: #ffffff;
+    padding: 0 0 0 30px;
+}
+
+.forest_text p {
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+    padding: 5px 0 0 0;
+}
+
+.circle_forest {
+    width: 100px;
+    height: 100px;
+    border: 5px solid #FFB700;
+    border-radius: 100%;
+    margin: 2% 40px;
+}
+
+.circle_forest p {
+    padding: 30px 0 0 22px;
+    font-size: 24px;
+    font-weight: 500;
+    color: #ffffff;
+}
+
+.title_01 {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.title_01::before,
+.title_01::after {
+    content: '';
+    width: 32%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+}
+
+.title_01::before {
+    top: 50%;
+    left: 0;
+}
+
+.title_01::after {
+    top: 50%;
+    right: 0;
+}
+
+.endS2 {
+    width: 100%;
+    margin-top: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.textEnd {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.textEnd p:nth-child(1) {
+    margin: 15px 0 0 60px;
+    font-size: 20px;
+    font-family: 'Gilroy'
+}
+
+.textEnd p:nth-child(2) {
+    width: 30%;
+    text-align: center;
+    margin: 15px 20px 0 64px;
+    font-size: 20px;
+    font-family: 'Gilroy'
+}
+
+.textEnd p:nth-child(3) {
+    width: 100%;
+    text-align: center;
+    margin: 15px 10px 0 0;
+    font-size: 20px;
+    font-family: 'Gilroy'
+}
+
+.textEnd p:nth-child(4) {
+    width: 100%;
+    text-align: center;
+    margin: 15px 0px 0 0;
+    font-size: 20px;
+    font-family: 'Gilroy'
+}
+
+.client {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.client::before,
+.client::after {
+    content: '';
+    width: 32%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+}
+
+.client::before {
+    top: 50%;
+    left: 0;
+}
+
+.client::after {
+    top: 50%;
+    right: 0;
+}
+
+.nike_wrapper {
+    margin-top: 7%;
+}

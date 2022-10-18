@@ -1,0 +1,92 @@
+.text_product {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.text_product::before,
+.text_product::after {
+    content: '';
+    width: 38%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+}
+
+.text_product::before {
+    top: 50%;
+    left: 0;
+}
+
+.text_product::after {
+    top: 50%;
+    right: 0;
+}
+
+.img_product_01 {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.img_product_01 img {
+    width: 340px;
+}
+
+
+.text_product02 {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.text_product02::before,
+.text_product02::after {
+    content: '';
+    width: 37%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+}
+
+.text_product02::before {
+    top: 50%;
+    left: 0;
+}
+
+.text_product02::after {
+    top: 50%;
+    right: 0;
+}
+
+.product_p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    margin-top: 5%;
+    line-height: 160%;
+}
+
+.forest01_product {
+    height: 325px;
+    background: url('../img-production/forest.01.png');
+    margin: 5% 0;
+}
+
+.forest01_product p {
+    color: #ffffff;
+    font-size: 24px;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    padding: 280px 0 0 320px;
+}

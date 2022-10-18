@@ -1,0 +1,734 @@
+@import url("https://cdn.rawgit.com/mfd/09b70eb47474836f25a21660282ce0fd/raw/e06a670afcb2b861ed2ac4a1ef752d062ef6b46b/Gilroy.css");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+
+.header_info {
+    width: 100%;
+    background-color: #65256F;
+    padding: 10px 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.header_info .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.header_nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.header-text-1 {
+    color: #FFB700;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Gilroy';
+}
+
+.header-text-2 {
+    display: flex;
+    color: aliceblue;
+
+}
+
+.header-text-2 p:nth-child(1) {
+    margin-right: 20px;
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Gilroy';
+    color: #FFFFFF;
+}
+
+.header-text-2 p:nth-child(2) {
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Gilroy';
+    color: #FBC70E;
+}
+
+
+.header_nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header_nav nav {
+    flex: 0 1 60%;
+}
+
+.menu li {
+    padding-top: 2%;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+
+}
+
+.menu_item {
+    color: #2A2828;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+
+}
+
+.menu_btn {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    text-align: center;
+    border-radius: 3px;
+    width: 160px;
+    height: 40px;
+    background-color: #65256F;
+    color: #FFFFFF;
+    transition: 0.3s;
+}
+
+.menu_btn:hover {
+    background-color: rgba(128, 128, 128, 0.562);
+    color: black;
+    font-size: 15px;
+}
+
+.ibg_fone {
+    width: 100%;
+    height: 90vh;
+    background: url('./../img/Rectangle\ 70.jpg') center / cover no-repeat;
+}
+
+.ibg_dark {
+    width: 100%;
+    height: 100%;
+    background-color: #000000A6;
+}
+
+.bishkek_wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15%;
+}
+
+.bishkek {
+    color: #FFFFFF;
+    font-size: 47px;
+    font-family: 'Gilroy';
+    flex: 0 1 60%;
+    position: relative;
+}
+
+.reklama::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 3px;
+    background-color: #FFFFFF;
+    bottom: 185px;
+    left: 0;
+}
+
+.reklama2 {
+    font-size: 34px;
+
+}
+
+.bishkek .btn {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 3px;
+    width: 300px;
+    height: 60px;
+    background-color: #FFC957;
+    margin-top: 40px;
+}
+
+.btn:hover {
+    transition: 0.4s;
+    color: white;
+    background-color: #2a282886;
+}
+
+.bishkek_img {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.bishkek_img img {
+    width: 30px;
+}
+
+.bishkek p {
+    padding-top: 5%;
+}
+
+
+/* Наши услуги */
+.title {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.title::before,
+.title::after {
+    content: '';
+    width: 39%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+}
+
+.title::before {
+    top: 50%;
+    left: 0;
+}
+
+.title::after {
+    top: 50%;
+    right: 0;
+}
+
+.group_img {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+
+
+.all_cards {
+    flex: 0 1 22%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    box-shadow: 0px 6px 32px rgba(0, 0, 0, 0.05);
+    border-radius: 3px;
+}
+
+.all_cards img {
+    width: 85%;
+    /* margin: 0 auto; */
+    padding-left: 50px;
+}
+
+.img_number {
+    padding-top: 20px;
+    color: #753ED6;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    line-height: 16px;
+}
+
+.text_key {
+    color: #000000;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
+
+.text_phone {
+    color: #5E5E5E;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+}
+
+
+/* Наши работы */
+.manas_img {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+
+.manas {
+    position: relative;
+    flex: 0 1 32%;
+    z-index: -1;
+}
+
+.manas img {
+    width: 100%;
+    margin-top: 20px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.35);
+}
+
+.manas p {
+    display: flex;
+    width: 100%;
+    top: 250px;
+    justify-content: center;
+    position: absolute;
+    text-align: center;
+    font-family: 'Open+Sans';
+    font-weight: 700;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+.work h2 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Gilroy';
+    margin-top: 30px;
+    position: relative;
+}
+
+.title1::before,
+.title1::after {
+    content: '';
+    width: 38%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+    top: 50%;
+}
+
+.title1::before {
+    left: 0;
+}
+
+.title1::after {
+    right: 0;
+}
+
+.work_wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.manas_btn {
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    border-radius: 3px;
+    width: 100%;
+    height: 40px;
+    background-color: #65256F;
+    margin-top: 30px;
+}
+
+
+
+
+
+/* Производство */
+.title3 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Gilroy';
+    margin-top: 30px;
+    position: relative;
+}
+
+.title3::before,
+.title3::after {
+    content: '';
+    width: 38%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+    top: 50%;
+}
+
+.title3::before {
+    left: 0;
+}
+
+.title3::after {
+    right: 0;
+}
+
+.proisvodstvo {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.port {
+    flex: 0 1 25%;
+}
+
+.port img {
+    width: 340px;
+    height: 300px;
+}
+
+.proisvodstvo img {
+    margin-top: 30px;
+
+}
+
+/* Наш прайс */
+.prais_o {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+.prais {
+    flex: 0 1 25%;
+}
+
+.prais img {
+    width: 260px;
+    height: 380px;
+    margin-top: 20px;
+}
+
+.btn__prais {
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 16px;
+    border-radius: 3px;
+    width: 350px;
+    height: 40px;
+    background-color: #65256F;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3% 0 0 33%;
+
+}
+
+.prais p:nth-child(1) {
+    color: #5A5858;
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 170%;
+}
+
+.som {
+    color: #4C1F8C;
+    margin-top: 10px;
+    font-family: 'Gilroy';
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.title4 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Gilroy';
+    margin-top: 30px;
+    position: relative;
+}
+
+.title4::before,
+.title4::after {
+    content: '';
+    width: 38%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+    top: 50%;
+}
+
+.title4::before {
+    left: 0;
+}
+
+.title4::after {
+    right: 0;
+}
+
+.vse {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 3px;
+    width: 160px;
+    height: 40px;
+    background-color: #65256F;
+}
+
+/* Наши клиенты */
+.title5 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Gilroy';
+    margin-top: 30px;
+    position: relative;
+}
+
+.title5::before,
+.title5::after {
+    content: '';
+    width: 38%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+    top: 50%;
+}
+
+.title5::before {
+    left: 0;
+}
+
+.title5::after {
+    right: 0;
+}
+
+/* Картинки */
+.nike_wrapper {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.title6 {
+    text-align: center;
+    font-size: 48px;
+    font-family: 'Gilroy';
+    margin-top: 30px;
+    position: relative;
+}
+
+/* Наша команда */
+.title6::before,
+.title6::after {
+    content: '';
+    width: 37%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+    top: 50%;
+}
+
+.title6::before {
+    left: 0;
+}
+
+.title6::after {
+    right: 0;
+}
+
+/* Картинки */
+.model {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.model_img {
+    flex: 0 1 25%;
+}
+
+.model_img img {
+    width: 340px;
+    height: 420px;
+    margin-top: 20px;
+}
+
+.model_p {
+    display: flex;
+    font-weight: 400;
+    font-size: 36px;
+    margin: 10px 0;
+    font-family: 'Roboto';
+}
+
+.model_p:nth-child(2) {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Gilroy';
+}
+
+
+
+.tio {
+    font-weight: 600;
+    font-size: 32px;
+    font-family: 'Gilroy';
+    margin: 60px 0 0 320px;
+}
+
+.tio2 {
+    font-weight: 400;
+    font-size: 18px;
+    font-family: 'Gilroy';
+    margin: 15px 0 0 250px;
+}
+
+.line__btn {
+    margin: 50px 0 100px 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.line_btn1 {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    border-radius: 3px;
+    width: 315px;
+    height: 40px;
+    background-color: #E5E3E3;
+    display: flex;
+    align-items: center;
+
+}
+
+
+.line_btn3 {
+    font-family: 'Gilroy';
+    font-weight: 400;
+    font-size: 18px;
+    text-align: center;
+    border-radius: 3px;
+    width: 226px;
+    height: 40px;
+    background-color: #65256F;
+    color: #ffffff;
+}
+
+footer {
+    width: 100%;
+    background: #3A3A3A;
+}
+
+.text__foot div {
+    flex: 0 1 35%;
+}
+
+h4 {
+    padding-top: 50px;
+    color: #fff;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.text1 p {
+    padding-top: 10px;
+    line-height: 150%;
+}
+
+.text2 {
+    margin-left: 120px;
+}
+
+.text2 p {
+    padding-top: 10px;
+}
+
+.text3 {
+    margin: 0 100px 170px 0;
+}
+
+.text3 p {
+    padding-top: 10px;
+}
+
+
+.text__foot {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 0;
+
+}
+
+.text__foot div p {
+    margin: 0 auto;
+    align-items: center;
+    color: #BCBBBB;
+    font-family: 'Gilroy';
+    font-weight: 600;
+    font-size: 14px;
+
+}
+
+
+/* =========== страница 2 ========== */
+
+/* ==========  страница 3 ============= */
+
+/* .tolpa img {
+    width: 100px;
+} */
+
+.title {
+    color: #000000;
+    font-size: 48px;
+    font-weight: 400;
+    font-family: 'Gilroy';
+    text-align: center;
+    margin-top: 50px;
+    position: relative;
+}
+
+.title::before,
+.title::after {
+    content: '';
+    width: 40%;
+    height: 2px;
+    background-color: #BEBEBE;
+    position: absolute;
+}
+
+.title::before {
+    top: 50%;
+    left: 0;
+}
+
+.title::after {
+    top: 50%;
+    right: 0;
+}
+
+.title__p {
+    width: 100%;
+    font-size: 18px;
+    font-family: "Gilroy";
+    text-align: center;
+    margin-top: 2%;
+    color: #4C4C54;
+}
+
+.active {
+    color: orange;
+}
